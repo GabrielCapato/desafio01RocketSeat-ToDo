@@ -1,0 +1,97 @@
+import { StyleSheet } from "react-native";
+
+
+export const styles = StyleSheet.create({
+  container:{
+    flex: 1,
+    backgroundColor: '#1A1A1A',
+    padding:24,
+  },
+  textInput:{
+    flex:1,
+    backgroundColor:'#262626',
+    height:56,
+    borderRadius:5,
+    color:'#FFF',
+    padding:16,
+    fontSize:16,
+    marginRight:12,
+  },
+  image:{
+    alignSelf:'center',
+    marginTop: 70
+  },
+  inputView:{
+    width:'100%',
+    flexDirection:'row',
+    marginTop:40
+  },
+  button:{
+    backgroundColor:'#1E6F9F',
+    width:56,
+    height:56,
+    borderRadius:5,
+    alignItems:'center',
+    justifyContent:'center'
+  },
+  content:{
+    justifyContent:'space-between',
+    flexDirection:'row',
+    marginTop:32,
+    height:'auto'
+  },
+  created:{
+    fontSize:16,
+    color:'#4EA8DE',
+    fontWeight:'bold'
+  },
+  done:{
+    fontSize:16,
+    color:'#8284FA',
+    fontWeight:'bold'
+  },
+  filter:{
+    flexDirection:'row',
+    gap:16
+  },
+  counter:{
+    fontSize:14,
+    color:'#fff',
+    fontWeight:'bold',
+
+  },
+  borderCounter:{
+    height:19,
+    width:25,
+    textAlign:'center',
+    alignItems:'center',
+    justifyContent:'center',
+    borderRadius:999,
+    backgroundColor:'#333333'
+  },
+  separator:{
+    height:1,
+    width:'100%',
+    backgroundColor:'#333333',
+    marginTop:20,
+    marginBottom:20
+  },
+  emptyViewText:{
+    color:'#808080',
+    fontSize:16
+  },
+  emptyViewTitle:{
+    color:'#808080',
+    fontSize:16,
+    fontWeight:'bold'
+  },
+  emptyView:{
+    alignItems:'center',
+    height:800,
+    width:'100%'
+  },
+  imageClip:{
+    marginTop:48,
+    marginBottom:16
+  }
+})
