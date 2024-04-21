@@ -1,4 +1,4 @@
-Este é um Projeto referente ao Desafio 01 - ToDo list, do curso de React Native da Rocketseat !
+Este é um Projeto referente ao *Desafio 01 - ToDo list*, do curso de React Native da Rocketseat !
 
 Para usar o Projeto use:
 ``` yarn install ```
